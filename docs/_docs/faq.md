@@ -22,11 +22,11 @@ have by design. In other words, the gateway automates typical boring boilerplate
 between gRPC and HTTP/1 communication, but it does not do arbitrarily complex custom mappings for you.
 
 On the other hand, you can still add whatever you want as a middleware which wraps
-[`runtime.ServeMux`](https://pkg.go.dev/github.com/grpc-ecosystem/grpc-gateway/runtime?tab=doc#ServeMux).
+[`runtime.ServeMux`](https://pkg.go.dev/github.com/reyahsolutions/grpc-gateway/runtime?tab=doc#ServeMux).
 Since `runtime.ServeMux` is just a standard [`http.Handler`](http://golang.org/pkg/http#Handler),
 you can easily write a custom wrapper of `runtime.ServeMux`, leveraged with existing third-party
 libraries in Go.
-e.g. https://github.com/grpc-ecosystem/grpc-gateway/blob/master/examples/internal/gateway/main.go
+e.g. https://github.com/reyahsolutions/grpc-gateway/blob/master/examples/internal/gateway/main.go
 
 ## My gRPC server is written in (Scala|C++|Ruby|Haskell|....). Is there a (Scala|C++|Ruby|Haskell|....) version of grpc-gateway?
 

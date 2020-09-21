@@ -20,7 +20,7 @@ We're excited to see what contributions this will bring to our documentation.
     - When a user wants to expose an existing gRPC API to a JSON/HTTP API audience.
     - When quickly iterating on a JSON/HTTP API design.
   - Website: https://grpc-ecosystem.github.io/grpc-gateway
-  - Repo: https://github.com/grpc-ecosystem/grpc-gateway
+  - Repo: https://github.com/reyahsolutions/grpc-gateway
   - Project administrators and mentors:
     - Johan Brandhorst (@johanbrandhorst)
     - Andrew Z Allen (@achew22)
@@ -34,7 +34,7 @@ have a new version with some updated styling and a better structure. The existin
 could be preserved and just reused with a fresh new look, or we could rewrite much of it.
 
 It's currently rendered from Markdown using [Jekyll](https://jekyllrb.com/).
-[The source code](https://github.com/grpc-ecosystem/grpc-gateway/tree/master/docs)
+[The source code](https://github.com/reyahsolutions/grpc-gateway/tree/master/docs)
 for the site is part of the main repo.
 
 We the best way to do this would be to have someone who is unfamiliar with the project
@@ -44,8 +44,8 @@ easily find with our existing docs.
 Material:
   - [The current site](https://grpc-ecosystem.github.io/grpc-gateway/)
   - [Jekyll](https://jekyllrb.com/) which powers the site now.
-  - [The source code](https://github.com/grpc-ecosystem/grpc-gateway/tree/master/docs) for the site today.
-  - [The project README](https://github.com/grpc-ecosystem/grpc-gateway/blob/master/README.md) which
+  - [The source code](https://github.com/reyahsolutions/grpc-gateway/tree/master/docs) for the site today.
+  - [The project README](https://github.com/reyahsolutions/grpc-gateway/blob/master/README.md) which
     contains an intro to the project.
 
 ### Rewrite the README with a better intro and examples
@@ -62,7 +62,7 @@ quickly and concisely answer the most important questions for our users.
   - How do I submit an issue report or get help?
 
 Material:
-  - [The current README](https://github.com/grpc-ecosystem/grpc-gateway/blob/master/README.md).
+  - [The current README](https://github.com/reyahsolutions/grpc-gateway/blob/master/README.md).
 
 ### Create a tutorial for the docs site
 
@@ -89,13 +89,13 @@ Material:
 ### Improve the contributor's guide
 
 This is currently split between
-[CONTRIBUTING.md](https://github.com/grpc-ecosystem/grpc-gateway/blob/master/CONTRIBUTING.md)
-and the [issue templates](https://github.com/grpc-ecosystem/grpc-gateway/tree/master/.github/ISSUE_TEMPLATE).
+[CONTRIBUTING.md](https://github.com/reyahsolutions/grpc-gateway/blob/master/CONTRIBUTING.md)
+and the [issue templates](https://github.com/reyahsolutions/grpc-gateway/tree/master/.github/ISSUE_TEMPLATE).
 Both of these are a little ad-hoc and could do with a fresh pair of eyes.
 
 Material:
-  - [Current CONTRIBUTING.md](https://github.com/grpc-ecosystem/grpc-gateway/blob/master/CONTRIBUTING.md)
-  - [Current issue templates](https://github.com/grpc-ecosystem/grpc-gateway/tree/master/.github/ISSUE_TEMPLATE)
+  - [Current CONTRIBUTING.md](https://github.com/reyahsolutions/grpc-gateway/blob/master/CONTRIBUTING.md)
+  - [Current issue templates](https://github.com/reyahsolutions/grpc-gateway/tree/master/.github/ISSUE_TEMPLATE)
 
 ### Write a v2.0.0 migration guide
 
@@ -111,4 +111,4 @@ Currently, the scope of the v2 release is not entirely known, as it is still in 
 endeavour not to make too many breaking changes as that will discourage users from upgrading.
 
 Material:
-  - [v2 Tracking issue](https://github.com/grpc-ecosystem/grpc-gateway/issues/1223)
+  - [v2 Tracking issue](https://github.com/reyahsolutions/grpc-gateway/issues/1223)

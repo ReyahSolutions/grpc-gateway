@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package grpc.gateway.protoc_gen_openapiv2.options;
 
-option go_package = "github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-openapiv2/options";
+option go_package = "github.com/reyahsolutions/grpc-gateway/v2/protoc-gen-openapiv2/options";
 
 import "google/protobuf/any.proto";
 import "google/protobuf/struct.proto";
@@ -30,12 +30,12 @@ enum Scheme {
 //      description: ";
 //      contact: {
 //        name: "gRPC-Gateway project";
-//        url: "https://github.com/grpc-ecosystem/grpc-gateway";
+//        url: "https://github.com/reyahsolutions/grpc-gateway";
 //        email: "none@example.com";
 //      };
 //      license: {
 //        name: "BSD 3-Clause License";
-//        url: "https://github.com/grpc-ecosystem/grpc-gateway/blob/master/LICENSE.txt";
+//        url: "https://github.com/reyahsolutions/grpc-gateway/blob/master/LICENSE.txt";
 //      };
 //    };
 //    schemes: HTTPS;
@@ -205,12 +205,12 @@ message Response {
 //      description: ";
 //      contact: {
 //        name: "gRPC-Gateway project";
-//        url: "https://github.com/grpc-ecosystem/grpc-gateway";
+//        url: "https://github.com/reyahsolutions/grpc-gateway";
 //        email: "none@example.com";
 //      };
 //      license: {
 //        name: "BSD 3-Clause License";
-//        url: "https://github.com/grpc-ecosystem/grpc-gateway/blob/master/LICENSE.txt";
+//        url: "https://github.com/reyahsolutions/grpc-gateway/blob/master/LICENSE.txt";
 //      };
 //    };
 //    ...
@@ -245,7 +245,7 @@ message Info {
 //      ...
 //      contact: {
 //        name: "gRPC-Gateway project";
-//        url: "https://github.com/grpc-ecosystem/grpc-gateway";
+//        url: "https://github.com/reyahsolutions/grpc-gateway";
 //        email: "none@example.com";
 //      };
 //      ...
@@ -275,7 +275,7 @@ message Contact {
 //      ...
 //      license: {
 //        name: "BSD 3-Clause License";
-//        url: "https://github.com/grpc-ecosystem/grpc-gateway/blob/master/LICENSE.txt";
+//        url: "https://github.com/reyahsolutions/grpc-gateway/blob/master/LICENSE.txt";
 //      };
 //      ...
 //    };
@@ -300,7 +300,7 @@ message License {
 //    ...
 //    external_docs: {
 //      description: "More about gRPC-Gateway";
-//      url: "https://github.com/grpc-ecosystem/grpc-gateway";
+//      url: "https://github.com/reyahsolutions/grpc-gateway";
 //    }
 //    ...
 //  };

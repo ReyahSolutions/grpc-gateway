@@ -12,10 +12,10 @@ import (
 	pluginpb "github.com/golang/protobuf/protoc-gen-go/plugin"
 	structpb "github.com/golang/protobuf/ptypes/struct"
 	"github.com/google/go-cmp/cmp"
-	"github.com/grpc-ecosystem/grpc-gateway/v2/internal/descriptor"
-	"github.com/grpc-ecosystem/grpc-gateway/v2/internal/httprule"
-	openapi_options "github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-openapiv2/options"
-	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
+	"github.com/reyahsolutions/grpc-gateway/v2/internal/descriptor"
+	"github.com/reyahsolutions/grpc-gateway/v2/internal/httprule"
+	openapi_options "github.com/reyahsolutions/grpc-gateway/v2/protoc-gen-openapiv2/options"
+	"github.com/reyahsolutions/grpc-gateway/v2/runtime"
 	"google.golang.org/protobuf/proto"
 )
 

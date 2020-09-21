@@ -6,9 +6,9 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/grpc-ecosystem/grpc-gateway/v2/examples/internal/proto/examplepb"
-	standalone "github.com/grpc-ecosystem/grpc-gateway/v2/examples/internal/proto/standalone"
-	gwruntime "github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
+	"github.com/reyahsolutions/grpc-gateway/v2/examples/internal/proto/examplepb"
+	standalone "github.com/reyahsolutions/grpc-gateway/v2/examples/internal/proto/standalone"
+	gwruntime "github.com/reyahsolutions/grpc-gateway/v2/runtime"
 	"google.golang.org/grpc"
 )
 

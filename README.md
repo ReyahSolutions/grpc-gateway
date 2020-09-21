@@ -1,6 +1,6 @@
 # grpc-gateway
 
-[![release](https://img.shields.io/github/v/release/grpc-ecosystem/grpc-gateway?include_prereleases&sort=semver&style=flat-square)](https://github.com/grpc-ecosystem/grpc-gateway/releases) [![CircleCI](https://img.shields.io/circleci/project/github/grpc-ecosystem/grpc-gateway/v2.svg?style=flat-square)](https://circleci.com/gh/grpc-ecosystem/grpc-gateway/tree/v2) [![fuzzit](https://app.fuzzit.dev/badge?org_id=grpc-gateway)](https://app.fuzzit.dev/orgs/grpc-gateway/dashboard) [![coverage](https://img.shields.io/codecov/c/github/grpc-ecosystem/grpc-gateway/v2.svg?style=flat-square)](https://codecov.io/gh/grpc-ecosystem/grpc-gateway) [![license](https://img.shields.io/github/license/grpc-ecosystem/grpc-gateway.svg?style=flat-square)](LICENSE.txt)
+[![release](https://img.shields.io/github/v/release/grpc-ecosystem/grpc-gateway?include_prereleases&sort=semver&style=flat-square)](https://github.com/reyahsolutions/grpc-gateway/releases) [![CircleCI](https://img.shields.io/circleci/project/github/grpc-ecosystem/grpc-gateway/v2.svg?style=flat-square)](https://circleci.com/gh/grpc-ecosystem/grpc-gateway/tree/v2) [![fuzzit](https://app.fuzzit.dev/badge?org_id=grpc-gateway)](https://app.fuzzit.dev/orgs/grpc-gateway/dashboard) [![coverage](https://img.shields.io/codecov/c/github/grpc-ecosystem/grpc-gateway/v2.svg?style=flat-square)](https://codecov.io/gh/grpc-ecosystem/grpc-gateway) [![license](https://img.shields.io/github/license/grpc-ecosystem/grpc-gateway.svg?style=flat-square)](LICENSE.txt)
 
 The grpc-gateway is a plugin of the Google protocol buffers compiler
 [protoc](https://github.com/protocolbuffers/protobuf).
@@ -56,8 +56,8 @@ to track the versions of the following executable packages:
 package tools
 
 import (
-    _ "github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-grpc-gateway"
-    _ "github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-openapiv2"
+    _ "github.com/reyahsolutions/grpc-gateway/v2/protoc-gen-grpc-gateway"
+    _ "github.com/reyahsolutions/grpc-gateway/v2/protoc-gen-openapiv2"
     _ "github.com/golang/protobuf/protoc-gen-go"
 )
 ```
@@ -66,8 +66,8 @@ Run `go mod tidy` to resolve the versions. Install by running
 
 ```sh
 $ go install \
-    github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-grpc-gateway \
-    github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-openapiv2 \
+    github.com/reyahsolutions/grpc-gateway/v2/protoc-gen-grpc-gateway \
+    github.com/reyahsolutions/grpc-gateway/v2/protoc-gen-openapiv2 \
     github.com/golang/protobuf/protoc-gen-go
 ```
 
@@ -203,7 +203,7 @@ annotation to your .proto file
      "net/http"
  
      "github.com/golang/glog"
-     "github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
+     "github.com/reyahsolutions/grpc-gateway/v2/runtime"
      "google.golang.org/grpc"
 
      gw "github.com/yourorg/yourrepo/proto/gen/go/your/service/v1/your_service"  // Update
@@ -334,7 +334,7 @@ But patch is welcome.
 
 # Mapping gRPC to HTTP
 
-* [How gRPC error codes map to HTTP status codes in the response](https://github.com/grpc-ecosystem/grpc-gateway/blob/master/runtime/errors.go#L15).
+* [How gRPC error codes map to HTTP status codes in the response](https://github.com/reyahsolutions/grpc-gateway/blob/master/runtime/errors.go#L15).
 * HTTP request source IP is added as `X-Forwarded-For` gRPC request header.
 * HTTP request host is added as `X-Forwarded-Host` gRPC request header.
 * HTTP `Authorization` header is added as `authorization` gRPC request header.
@@ -349,8 +349,8 @@ header.
 `OrigName: true`.
 
 # Contribution
-See [CONTRIBUTING.md](http://github.com/grpc-ecosystem/grpc-gateway/blob/master/CONTRIBUTING.md).
+See [CONTRIBUTING.md](http://github.com/reyahsolutions/grpc-gateway/blob/master/CONTRIBUTING.md).
 
 # License
 grpc-gateway is licensed under the BSD 3-Clause License.
-See [LICENSE.txt](https://github.com/grpc-ecosystem/grpc-gateway/blob/master/LICENSE.txt) for more details.
+See [LICENSE.txt](https://github.com/reyahsolutions/grpc-gateway/blob/master/LICENSE.txt) for more details.

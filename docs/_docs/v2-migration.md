@@ -6,7 +6,7 @@ category: documentation
 # gRPC-Gateway v2 migration guide
 
 This guide is supposed to help users of the gateway migrate from v1 to v2.
-See https://github.com/grpc-ecosystem/grpc-gateway/issues/1223 for detailed
+See https://github.com/reyahsolutions/grpc-gateway/issues/1223 for detailed
 information on all changes that were made specifically to v2.
 
 The following behavioural defaults have been changed:
@@ -14,7 +14,7 @@ The following behavioural defaults have been changed:
 ## protoc-gen-swagger has been renamed protoc-gen-openapiv2
 
 See
-[the original issue](https://github.com/grpc-ecosystem/grpc-gateway/issues/675)
+[the original issue](https://github.com/reyahsolutions/grpc-gateway/issues/675)
 for more information. Apart from the new name, the only real
 difference to users will be a slightly different proto annotation:
 
@@ -59,9 +59,9 @@ See `a_bit_of_everything.proto` in the example protos for more examples.
 
 ## We now use the camelCase JSON names by default
 See
-[the original issue](https://github.com/grpc-ecosystem/grpc-gateway/issues/375)
+[the original issue](https://github.com/reyahsolutions/grpc-gateway/issues/375)
 and
-[original pull request](https://github.com/grpc-ecosystem/grpc-gateway/issues/375)
+[original pull request](https://github.com/reyahsolutions/grpc-gateway/issues/375)
 for more information.
 
 If you want to revert to the old behaviour, configure a custom marshaler with
@@ -92,7 +92,7 @@ If using the Bazel rule, set `json_names_for_fields=False`.
 
 ## We now emit default vaules for all fields
 
-See [the original issue](https://github.com/grpc-ecosystem/grpc-gateway/issues/233)
+See [the original issue](https://github.com/reyahsolutions/grpc-gateway/issues/233)
 for more information.
 
 If you want to revert to the old behaviour, configure a custom marshaler with
@@ -156,7 +156,7 @@ mux := runtime.NewServeMux(
 
 If you were previously specifying these, please remove them, as this is now
 the default behaviour. See
-[the original issue](https://github.com/grpc-ecosystem/grpc-gateway/issues/224)
+[the original issue](https://github.com/reyahsolutions/grpc-gateway/issues/224)
 for more information.
 
 There is no workaround for this, as we considered it a correct interpretation of the spec.

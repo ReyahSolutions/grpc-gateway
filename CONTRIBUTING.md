@@ -3,8 +3,8 @@
 Thank you for your contribution to grpc-gateway.
 Here's the recommended process of contribution.
 
-1. `go get github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway`
-1. `cd $GOPATH/src/github.com/grpc-ecosystem/grpc-gateway`
+1. `go get github.com/reyahsolutions/grpc-gateway/protoc-gen-grpc-gateway`
+1. `cd $GOPATH/src/github.com/reyahsolutions/grpc-gateway`
 1. hack, hack, hack...
 1. Make sure that your change follows best practices in Go
    - [Effective Go](https://golang.org/doc/effective_go.html)
@@ -25,7 +25,7 @@ All submissions, including submissions by project members, require review.
 Great! It should be as simple as this (run from the root of the directory):
 
 ```bash
-docker run -v $(pwd):/src/grpc-gateway --rm docker.pkg.github.com/grpc-ecosystem/grpc-gateway/build-env:1.15 \
+docker run -v $(pwd):/src/grpc-gateway --rm docker.pkg.github.com/reyahsolutions/grpc-gateway/build-env:1.15 \
     /bin/bash -c 'cd /src/grpc-gateway && \
         make realclean && \
         make examples && \
@@ -37,7 +37,7 @@ docker run -itv $(pwd):/grpc-gateway -w /grpc-gateway --entrypoint /bin/bash --r
         bazel run :buildifier'
 ```
 
-You may need to authenticate with GitHub to pull `docker.pkg.github.com/grpc-ecosystem/grpc-gateway/build-env`.
+You may need to authenticate with GitHub to pull `docker.pkg.github.com/reyahsolutions/grpc-gateway/build-env`.
 You can do this by following the steps on the [GitHub Package docs](https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-docker-for-use-with-github-packages#authenticating-to-github-packages).
 
 If this has resulted in some file changes in the repo, please ensure you check those in with your merge request.
@@ -59,7 +59,7 @@ To make a release, follow these steps:
 1. Merge the PR.
 1. Tag the release on `master`, the tag should be made against the commit you just merged.
    1. The release can be created using the command line, or also through GitHub's [releases
-      UI](https://github.com/grpc-ecosystem/grpc-gateway/releases/new).
+      UI](https://github.com/reyahsolutions/grpc-gateway/releases/new).
    1. If you create a release using the web UI you can publish it as a draft and have it
       reviewed by another maintainer.
 1. (Optional) Delete your GitHub token again.

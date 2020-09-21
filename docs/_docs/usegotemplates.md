@@ -95,4 +95,4 @@ This is how the OpenAPI file would be rendered in [Postman](https://www.getpostm
 ![Screenshot OpenAPI file in Postman](https://raw.githubusercontent.com/grpc-ecosystem/grpc-gateway/master/docs/_imgs/gotemplates/postman.png)
 
 For a more detailed example of a protofile that has Go templates enabled,
-[see the examples](https://github.com/grpc-ecosystem/grpc-gateway/blob/master/examples/internal/proto/examplepb/use_go_template.proto).
+[see the examples](https://github.com/reyahsolutions/grpc-gateway/blob/master/examples/internal/proto/examplepb/use_go_template.proto).

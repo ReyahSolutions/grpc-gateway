@@ -13,13 +13,13 @@ There are two scenarios:
 - The FieldMask is hidden from the REST request as per the
 	[Google API design guide](https://cloud.google.com/apis/design/standard_methods#update)
 	(as in the first additional binding in the
-	[UpdateV2](https://github.com/grpc-ecosystem/grpc-gateway/blob/master/examples/internal/proto/examplepb/a_bit_of_everything.proto#L366)
+	[UpdateV2](https://github.com/reyahsolutions/grpc-gateway/blob/master/examples/internal/proto/examplepb/a_bit_of_everything.proto#L366)
 	example).
 	In this case, the FieldMask is updated from the request body and
 	set in the gRPC request message.
 - The FieldMask is exposed to the REST request (as in the second
 	additional binding in the
-	[UpdateV2](https://github.com/grpc-ecosystem/grpc-gateway/blob/master/examples/internal/proto/examplepb/a_bit_of_everything.proto#L370)
+	[UpdateV2](https://github.com/reyahsolutions/grpc-gateway/blob/master/examples/internal/proto/examplepb/a_bit_of_everything.proto#L370)
 	example).
 	For this case, the field mask is left untouched by the gateway.
 
